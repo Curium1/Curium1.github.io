@@ -1,0 +1,15 @@
+/* TEAM */
+	Web designer: Patrick Bender
+	Twitter: @patrickbender
+	From:Edsvära, Sweden
+
+/* THANKS */
+	
+	Jekyll & Docker Bundle: Johan Leitet
+	Jekyll & Docker Bundle: John H�ggerud		
+
+/* SITE */
+	Last update:2017/11
+	Language: English
+	Doctype:HTML5
+	IDE: Visual Studio Code, Paint.net
