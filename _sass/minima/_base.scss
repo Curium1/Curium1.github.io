@@ -99,7 +99,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
+    color: darken($brand-color, 15%);
     text-decoration: underline;
   }
 
@@ -216,4 +216,6 @@ pre {
 
 .postCategories {
   font-weight: bolder;
+  background-color: $grey-color-lighter;
+  padding-left: 10px;
 }
