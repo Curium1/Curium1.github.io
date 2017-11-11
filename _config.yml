@@ -13,20 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Patricks Blogg
-email: pb222ps@student.lnu.se
+title: "Patricks Blogg"
+email: "pb222ps@student.lnu.se"
 description: >- # this means to ignore newlines until "baseurl:"
   Min blogg om min resa för att bli en Webbutvecklare.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  Curium1
+url: "https://curium1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: "PatrickBender1"
+github_username:  "Curium1"
 
 # Build settings
+# environment: production   
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  # Installera om tid finns
+  # - jekyll-sitemap
 
 defaults:
   -
@@ -35,6 +38,28 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+# Försökte få op värden som standard
+#   -
+#   scope:
+#     path: ""
+#     type: ""
+#   values:
+#     og-title: {{page.title}}
+#     og-type: {{page.layout}}
+#     og-url: {{page.url}}
+#     og-image: {{"/images/logo.png"}}
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: 1dv022
+
+# Google Analytics
+google_analytics: UA-NNNNNNNN-N
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
