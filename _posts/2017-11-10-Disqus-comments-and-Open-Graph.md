@@ -16,6 +16,8 @@ Disqus Comments is built in to the minima theme. The only thing one need to do t
 ```
 
 For Open Graph it is a little bit more work.
+But is is time that is well spent since sharing a site on social media och in a program that uses Open Graph looks that much better.
+You can inclue a lot of elements directly in the chat for example just by pasting an URL.
 The tags needs to be in the meta data of the website which is stored in the "./_includes/head" folder. I have chosen to use four tags: Title, Type, Image & URL. I have also chosen to try out different methods for applying them.
 
 ## Title
