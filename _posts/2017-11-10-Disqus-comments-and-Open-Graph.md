@@ -4,6 +4,7 @@ title:  "Disqus comments and Open Graph"
 date:   2017-11-10 22:16:00 -0500
 categories: Disqus Open-Graph
 excerpt: "Read about how I implemented Disqus comments and Open Graph on this site."
+permalink: /Disqus-Open-Graph/
 ---
 # How I implemented Disqus comments and Open Graph
 

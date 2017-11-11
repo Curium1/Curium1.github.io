@@ -23,7 +23,6 @@ twitter_username: "PatrickBender1"
 github_username:  "Curium1"
 
 # Build settings
-# environment: production   
 markdown: kramdown
 theme: minima
 plugins:
@@ -35,20 +34,14 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      image: logo.png
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
-
-# Försökte få op värden som standard
-#   -
-#   scope:
-#     path: ""
-#     type: ""
-#   values:
-#     og-title: {{page.title}}
-#     og-type: {{page.layout}}
-#     og-url: {{page.url}}
-#     og-image: {{"/images/logo.png"}}
 
 # Disqus Comments
 disqus:
