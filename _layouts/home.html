@@ -18,10 +18,12 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
 
-        {{ post.excerpt }}
+        <p>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        </p>
 
-        <div id="postCategories">
-        {{post.categories}}
+        <div class="postCategories">
+        {{ post.categories | join: ', ' }}
         </div>
       </li>
     {% endfor %}
