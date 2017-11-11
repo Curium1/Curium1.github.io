@@ -4,7 +4,7 @@ title:  "My thoughts about Pre-compiling"
 date:   2017-11-10 21:16:00 -0500
 categories: Jekyll SASS Pre-compilers
 excerpt: "Read about the different techniques i used to build these posts."
-permalinks: /initial-thoughts/
+permalink: /initial-thoughts/
 ---
 # My thoughts about precompiling CSS
 
